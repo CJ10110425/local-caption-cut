@@ -1,0 +1,23 @@
+{
+  "name": "whatsub-inspired",
+  "description": "A different typeface per tone, some on rounded colour boxes. Colours for dialogue, question, warm and punchline follow public styles on the WhatSub style wall (https://whatsub.equal2.app/subtitle-style/); sizes, positions, wrapping and animation are this tool's own. Not affiliated with WhatSub. Built for portrait talking-head video.",
+  "font": "Noto Sans TC",
+  "fallback": ["Noto Sans TC", "Heiti TC", "PingFang TC", "Noto Sans CJK TC"],
+  "defaults": {"fade": [25, 50]},
+  "layout": {
+    "caption_y": {"landscape": 0.9, "portrait": 0.8385},
+    "title_y": {"landscape": 0.08, "portrait": 0.122},
+    "max_width": 0.843,
+    "min_overlap": 0.3,
+    "box_padding": 30
+  },
+  "roles": {
+    "dialogue": {"font": "Noto Sans TC", "size": 62, "color": "#FAFAFA", "outline": "#050505", "border": 4, "shadow": 1},
+    "question": {"font": "LXGW WenKai TC", "size": 70, "color": "#3000DA", "outline": "#3000DA", "border": 0, "shadow": 0, "bg": "#FFABBE"},
+    "warm": {"font": "Huninn", "size": 72, "color": "#FFFFFF", "outline": "#314400", "border": 0, "shadow": 0, "bg": "#314400"},
+    "emphasis": {"font": "WDXL Lubrifont TC", "size": 80, "color": "#FFD610", "outline": "#3268FF", "border": 5, "shadow": 2, "pop": [94, 102, 110, 210]},
+    "punchline": {"font": "Iansui", "size": 90, "color": "#FFFFFF", "outline": "#34243B", "border": 4, "shadow": 2, "pop": [90, 104, 130, 240], "tilt": -2},
+    "title": {"font": ["Mochiy Pop One", "WDXL Lubrifont TC"], "size": 74, "color": "#FFD610", "outline": "#3268FF", "border": 6, "shadow": 3, "fade": [100, 150], "pop": [96, 100, 140, 140]},
+    "note": {"font": "Huninn", "size": 49, "color": "#FFFFFF", "outline": "#2D353C", "border": 2, "shadow": 1}
+  }
+}

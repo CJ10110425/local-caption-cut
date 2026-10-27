@@ -1,0 +1,24 @@
+{
+  "name": "playful",
+  "description": "Variety-show captions for casual vlogs: one bold sans font, colour and size carry the mood. Built for landscape iPhone footage; works in portrait too.",
+  "font": ["Noto Sans TC", "Heiti TC", "PingFang TC", "Noto Sans CJK TC"],
+  "fallback": ["Noto Sans TC", "Heiti TC", "PingFang TC", "Noto Sans CJK TC"],
+  "defaults": {"bold": true, "fade": [30, 60], "pop_min": 0.95, "shadow_color": "#242A30"},
+  "layout": {
+    "caption_y": {"landscape": 0.903, "portrait": 0.84},
+    "title_y": {"landscape": 0.08, "portrait": 0.12},
+    "max_width": 0.82,
+    "min_overlap": 0.2
+  },
+  "roles": {
+    "dialogue": {"size": 66, "color": "#FFF9F1", "outline": "#252D36", "border": 3, "shadow": 1.5},
+    "question": {"size": 68, "color": "#DEF2FF", "outline": "#264A6A", "border": 3.5, "shadow": 1.5},
+    "joke": {"size": 86, "color": "#FFD964", "outline": "#543C30", "border": 5, "shadow": 3, "pop": [91, 103, 120, 240]},
+    "reaction": {"size": 80, "color": "#FFD7E3", "outline": "#693647", "border": 4.5, "shadow": 2, "pop": [91, 103, 120, 240]},
+    "hush": {"size": 72, "color": "#ECE1FF", "outline": "#4A3865", "border": 4, "shadow": 1.5},
+    "positive": {"size": 78, "color": "#DEF4D0", "outline": "#345A3D", "border": 4, "shadow": 2, "pop": [91, 103, 120, 240]},
+    "warm": {"size": 78, "color": "#FFE7C4", "outline": "#6D4934", "border": 4, "shadow": 2},
+    "note": {"size": 47, "color": "#FFFFFF", "outline": "#26313C", "border": 2.5, "shadow": 1.2, "fade": [70, 100], "pop": [92, 103, 130, 240]},
+    "title": {"size": 74, "color": "#FFD964", "outline": "#543C30", "border": 5, "shadow": 3, "fade": [100, 150], "pop": [96, 100, 140, 140]}
+  }
+}

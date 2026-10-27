@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "captioncut"
+version = "0.1.0"
+description = "Cut phone videos and burn in styled Traditional Chinese captions locally with FFmpeg and whisper.cpp"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["pillow>=10.1", "numpy", "fonttools>=4.40"]
+
+[project.optional-dependencies]
+opencc = ["opencc-python-reimplemented"]
+
+[project.scripts]
+captioncut = "captioncut.__main__:main"
+
+[tool.setuptools]
+packages = ["captioncut"]
+
+[tool.setuptools.package-data]
+captioncut = ["styles/*.json", "font-catalog.json"]

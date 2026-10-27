@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/google/fonts (all families below are SIL Open Font License 1.1)",
+  "fonts": [
+    {"family": "Noto Sans TC", "label": "思源黑體", "slug": "notosanstc", "source": "NotoSansTC[wght].ttf", "file": "NotoSansTC-Bold.ttf", "instance": {"wght": 700}},
+    {"family": "LXGW WenKai TC", "label": "霞鶩文楷", "slug": "lxgwwenkaitc", "source": "LXGWWenKaiTC-Bold.ttf", "file": "LXGWWenKaiTC-Bold.ttf"},
+    {"family": "Huninn", "label": "粉圓體", "slug": "huninn", "source": "Huninn-Regular.ttf", "file": "Huninn-Regular.ttf"},
+    {"family": "WDXL Lubrifont TC", "label": "潤字體", "slug": "wdxllubrifonttc", "source": "WDXLLubrifontTC-Regular.ttf", "file": "WDXLLubrifontTC-Regular.ttf"},
+    {"family": "Iansui", "label": "芫荽", "slug": "iansui", "source": "Iansui-Regular.ttf", "file": "Iansui-Regular.ttf"},
+    {"family": "Mochiy Pop One", "label": "日文展示", "slug": "mochiypopone", "source": "MochiyPopOne-Regular.ttf", "file": "MochiyPopOne-Regular.ttf"}
+  ]
+}
